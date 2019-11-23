@@ -11,16 +11,95 @@ body {
 h1 {
     color: white;
     margin:0;
-    padding: 30px;
-    font-size: 60px;
+    padding: 15px;
+    font-size: 80px;
     text-align: center;
 }
 
 #card {
     margin: 40px 7.5%;
     width: 85%;
-    height: 1000px;
-    background-color: lightgrey;
-    border-radius: 20px;
+    height: auto;
+    background-color: rgb(200, 200, 200);
+    /* border-radius: 20px; */
     box-shadow: 1px 1px 10px 0px;
+}
+
+/* #card-header{
+    width: 100%;
+    background-color: yellow;
+    border-radius: 10px;
+    height: 80px;
+}
+
+ul {
+    list-style: none;
+    
+    padding-top: 20px;
+}
+
+li {
+    font-size: 35px;
+    display: inline;
+} */
+td{
+    padding: 0px;
+}
+.ti-1 {
+     width:15%; 
+     line-height: 55px;
+     text-align: center;
+     font-weight: bold;
+     font-size: 25px;
+    
+     
+    
+}
+.ti-2 {
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    padding: 0px;
+}
+
+textarea {
+    height: 60px;
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+    border: none;
+    border-radius: 20px;
+}
+
+textarea:focus {
+    outline:0;
+}
+
+.ti-3{
+    text-align: center;
+     width: 15%;
+     height: 100%;
+     padding: 0px;
+}
+
+button {
+    height: 60px;
+    width:100%;
+    background-color: #00aaff;
+    border: none;
+    box-shadow: 1px 1px 3px 0px;
+    padding: 0px;
+    border-radius: 20px;
+} 
+
+button:active {
+    width: 90%;
+}
+
+button:focus {
+    outline:0;
+}
+
+i {
+    color: white;
 }
