@@ -109,6 +109,22 @@ button:focus {
     outline:0;
 }
 
-i {
+/* i {
     color: white;
+} */
+
+img {
+    color: white;
+    height: 40px;
+    width: 100%;
 }
+
+ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+/* #nine {
+    color: red;
+} */
